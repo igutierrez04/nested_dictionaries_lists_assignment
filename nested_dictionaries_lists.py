@@ -16,3 +16,18 @@ sports_directory['soccer'][0] = 'Andres'
 
 z = [{'x': 10, 'y': 20}] #TASK 4 change the value 20 in z to 30
 z[0]['y'] = 30
+
+# Iterate through a list of dictionaries
+# Create a function iterate_dictionary(some_list) that,
+#given  list of dictionaries, the function loops through each dictionary in the list and prints each key and the associated value.
+
+cars = [
+    {'brand': 'Toyota', 'model': 'Supra MK5'},
+    {'brand': 'Toyota', 'model': 'AE86'},
+    {'brand': 'Nissa', 'model': 'Sylvia S15'},
+    {'brand': 'Nissa', 'model': 'GTR'}
+]
+
+def itirate_dict(cars):
+    for key, val in cars.items():
+        print(key, " = ", val)
